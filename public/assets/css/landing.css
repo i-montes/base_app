@@ -1,0 +1,283 @@
+
+/* Loader */
+#preloader{
+    position: fixed;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     background:white;
+     z-index: 100;
+ }
+ 
+ #loader{
+     position: fixed;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     background: url(/assets/images/rolling_2.gif)no-repeat center 0;
+     z-index: 1000;
+ }
+ /* End Loader */
+@media (max-width: 310px) {
+    .footer-menu_2 img{
+        width:20px;
+    }
+}
+@media (max-width: 330px) {
+    
+    .botones_2{
+        display:block;
+    }   
+    .botones{
+        display:none;
+    }  
+    .name_product{
+        margin:50% auto
+    }
+}
+@media (min-width: 331px){
+    .botones_2{
+        display:none;
+    }
+    .name_product{
+        margin: 60% auto;
+    }
+}
+@media (max-width: 356px) {
+    .footer-menu_2 img{
+       width:25px;
+    }
+}
+@media (min-width: 381px){
+    .promociones{
+        margin-top:-30%;
+    }
+}
+@media (min-width: 399px){
+    .buscar{
+        width:90%; 
+        margin: -40% auto;
+        z-index: 2;
+    }
+}
+
+@media (max-width: 380px){
+    .buscar{
+        width:90%; 
+        margin: -42% auto;
+        z-index: 2;
+    }
+    .promociones{
+        margin-top:-30%;
+    }
+}
+
+@media (max-width: 370px){
+    .buscar{
+        width:90%; 
+        margin: -44% auto;
+        z-index: 2;
+    }
+    .promociones{
+        margin-top:-30%;
+    }
+}
+
+
+@media (max-width: 360px){
+    .buscar{
+        width:90%; 
+        margin: -46% auto;
+        z-index: 2;
+    }
+    .promociones{
+        margin-top:-32%;
+    }
+}
+
+@media (max-width: 350px){
+    .buscar{
+        width:90%; 
+        margin: -48% auto;
+        z-index: 2;
+    }
+    .buscar-restaurante{
+        margin-top:22%
+    }
+    .promociones{
+        margin-top:-32%;
+    }
+}
+
+@media (max-width: 340px){
+    .buscar{
+        width:90%; 
+        margin: -50% auto;
+        z-index: 2;
+    }
+    .promociones{
+        margin-top:-32%;
+    }
+}
+@media (max-width: 330px){
+    .buscar{
+        width:90%; 
+        margin: -52% auto;
+        z-index: 2;
+    }
+    .promociones{
+        margin-top:-32%;
+    }
+}
+@media (max-width: 320px){
+    .promociones{
+        margin-top:-30%;
+    }
+}
+
+@media (min-width: 400px){   
+    .name_product{
+        margin: 70% auto;
+    }
+    .buscar{
+        margin: -38% auto;
+    }
+}
+
+
+.inputsearch{
+    display: none;
+}
+
+.button-search{
+    width:100%; 
+    text-align: left; 
+    color: black; 
+    box-shadow: 2px 2px 5px #999; 
+    background-color: white; 
+    border-radius: 15px;
+}
+
+.search{
+    top: 205px;
+    left: 20px;
+    width: 379px;
+    height: 35px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 2px;
+    opacity: 1;
+}
+.menu{
+    margin-top: 200%;
+    position: fixed;
+left: 0px;
+width: 420px;
+height: 55px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+opacity: 1;
+z-index:100000000;
+}
+
+.footer-menu{
+    display: block;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    height: 55px;
+}
+.footer-menu_2 img{
+     margin-left: 7%;
+     margin-right: 7%;
+     margin-top: -25px;
+}
+.footer-menu span{
+    z-index: -10;   
+    margin-left: 85px;   
+    
+}
+.footer-menu p{
+    z-index: -10;   
+    margin-top: -18px;   
+    
+}
+
+
+
+.sngl_team {  
+    width : 126%;
+    margin-left:-12%; 
+    }
+    .owl-stage {
+        width:2000px;
+     }
+    .owl-item .sngl_team img {
+    margin : 0 auto;  
+    width : 130px;
+    }
+
+    .all_team .owl-controls {
+    display : inline-block;
+    width : 100%;
+    text-align : center;
+    }
+
+    
+
+
+
+    .sngl_team_2 {  
+        width : 126%;
+        margin-left:-12%;
+        z-index: -10;   
+      
+        }
+        
+        .owl-item .sngl_team_2 img {
+        margin : 0 auto;  
+        width : 130px;
+        }
+        
+        .all_team_2 .owl-controls .owl-prev i {
+        color : #3399ff;
+        font-size : 30px;
+        position : absolute;
+        display : none;
+        top : 46%;
+        left : 0;
+        }
+        .all_team_2 .owl-controls .owl-next i {
+        position : absolute;
+        display : none;
+        top : 46%;
+        font-size : 30px;
+        color : #3399FF;
+        right : 0%;
+        }  
+        .owl-nav{
+        display:none;
+        }
+        .all_team_2 .owl-controls .owl-dot {    
+        background-color : #363636;
+        border : none medium;
+        border-radius : 5px;
+        cursor : pointer;
+        display : none;
+        height : 6px;
+        text-indent : 0;
+        width : 25px;
+        margin-right : 5px;
+        }
+        .all_team_2 .owl-controls .owl-dot.active {
+        background-color : #03B0F0;
+        display: none;
+        }
+        .all_team_2 .owl-controls {
+        display : inline-block;
+        width : 100%;
+        text-align : center;
+        }
+        
+        
